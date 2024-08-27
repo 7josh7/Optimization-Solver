@@ -92,5 +92,3 @@ x_cvx, result = solver.solve_with_cvxpy()
 - The `OptimizationSolver` class is designed to handle constrained optimization problems where the constraints are defined by a matrix inequality \(Ax < b\).
 - The example usage demonstrates solving a randomly generated problem; in practice, the matrices `A`, `b`, and `c` should be defined based on specific optimization scenarios.
 - The solver's performance and accuracy can be benchmarked by comparing its results with those obtained using `CVXPY`.
-
-This implementation provides a robust framework for learning and experimenting with optimization techniques, especially in financial engineering and other fields requiring efficient numerical solutions to constrained problems.
